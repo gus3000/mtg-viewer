@@ -1,0 +1,22 @@
+[
+  {
+    "abbr": "R",
+    "name": "Red"
+  },
+  {
+    "abbr": "W",
+    "name": "White"
+  },
+  {
+    "abbr": "B",
+    "name": "Black"
+  },
+  {
+    "abbr": "G",
+    "name": "Green"
+  },
+  {
+    "abbr": "U",
+    "name": "Blue"
+  }
+]

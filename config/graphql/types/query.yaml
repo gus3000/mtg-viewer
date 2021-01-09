@@ -1,0 +1,12 @@
+Query:
+  type: object
+  config:
+    description: "Magic the Gathering ORM repository"
+    fields:
+      card:
+        type: "Card"
+        args:
+          id:
+            description: "Resolves using the card id"
+            type: "Int"
+        resolve: "@=resolver('Card', [args])"

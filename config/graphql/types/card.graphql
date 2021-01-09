@@ -1,0 +1,37 @@
+type Query {
+  card(id: ID): Card
+}
+
+type Card {
+  id: ID!
+  scryfallId: String!
+  lang: String
+  oracleId: String
+  printsSearchUri: String
+  rulingsUri: String
+  scryfallUri: String
+  uri: String
+  name: String
+  cmc: Int
+  colorIdentity: String
+  keywords: [String!]
+  layout: String
+  loyalty: String
+  manaCost: String
+  oracleText: String
+  reserved: String
+  artist: String
+  booster: String
+  border_color: String
+  collector_number: String
+  highresImage: String
+  rarity: String
+  releasedAt: String
+  reprint: String
+  scryfallSet: String
+  arena_id: String
+  mtgo_id: String
+  multiverse_ids: String
+  tcgplayer_id: String
+  allParts: String
+}
